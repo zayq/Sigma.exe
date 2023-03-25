@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "SIGMA.EXE",
+    "description": "be a sigma male",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "background",
+      "storage"
+    ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "128": "/assets/andrewtate.png"
+    },
+    "browser_action": {
+        "default_popup": "index.html"
+    }
+}

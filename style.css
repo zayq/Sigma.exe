@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 357px;
+    height: 580px;
+    background-color: #24272a;
+    border: 0px solid red;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    color: #d6d9dc;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 98, 98);
+}
+
+
+.header {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+.header img{
+    width: 100px;
+}
+
+.betawebsites{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.addwebsite{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#addbtn{
+    background-color: rgb(125, 255, 142);
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5%;
+}
+
+#addbtn:hover{
+    background-color:rgb(189, 255, 198) ;
+}
+
+#addbtn h3{
+    color: #24272a;
+    font-family: 'Inter', sans-serif;
+}
+
+#addwebsite{
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+#deletebtn{
+    background-color: #f23645;
+    width: 100px;
+    height: 45px;
+    border: none;
+    border-radius: 5%;
+}
+
+#deletebtn:hover{
+    background-color: #ff5967 ;
+}
+#deletebtn h3{
+    color: #24272a;
+    font-family: 'Inter', sans-serif;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
